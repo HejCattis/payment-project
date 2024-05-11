@@ -1,0 +1,7 @@
+{
+  "ignore": ["**/*.test.ts", "**/*.spec.ts", "node_modules", "src/generated"],
+  "watch": ["src"],
+"exec": "yarn run build && yarn run start_js",
+  "ext": "ts",
+  "verbose": true
+}
