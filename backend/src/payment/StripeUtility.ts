@@ -4,7 +4,7 @@ import type { CreateSetupIntent, CreateStripeCustomer, StripePaymentIntent, Stri
 export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
     apiVersion: '2023-10-16',
     appInfo: {
-        name: 'unseald-stripe',
+        name: 'test-project-stripe',
         version: '0.0.1',
     },
 });

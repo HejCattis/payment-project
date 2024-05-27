@@ -21,7 +21,6 @@ const WalletCheckoutButton = ({
     useEffect(() => {
         checkApplePay();
     }, []);
-    // FIXME - finns det något sätt att se om google pay är tillgängligt?
 
     return (
         <React.Fragment>
