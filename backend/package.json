@@ -1,5 +1,5 @@
 {
-  "name": "backend2",
+  "name": "payment-project-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "copy-client-tmp": "cp -R build/generated-client ../lib/generated-client"
   },
   "keywords": [],
-  "author": "",
+  "author": "cattis@hejdev.se",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.16",
